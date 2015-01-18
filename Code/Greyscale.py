@@ -6,7 +6,7 @@ This file iterates over a given folder --> srcdir and converts all the images(.p
 """
 
 import numpy as npy
-from scipy import misc as msc
+from scipy import misc as msc 
 import os as os
 from PIL import Image
 
