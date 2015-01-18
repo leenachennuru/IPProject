@@ -1,5 +1,5 @@
 1) Histogram of Greyvalues (Hopefully takes care of the spacing between the characters)
-2) Compute the lengths of the strokes 
+2) Compute the lengths of the strokes (I think that is the same as aspect ratio yeah ??)
 3) Histogram of Gradients 
 4) Hough Transform 
 5) Histogram Projections
