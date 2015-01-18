@@ -1,0 +1,7 @@
+1) Function to find the asect ratio of the characters ----> feature 1
+2) Function to find the area covered by the bounding box of the character ------> feature 2
+3) Function to find the Medial axis transform (function available in skiimage)
+4) Function to find compactness
+5) Function to find the density/entropy of the binarized images
+6) Function to find the moments of inertia 
+7) Function to perform principle component analysis 
