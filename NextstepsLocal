@@ -1,0 +1,7 @@
+1) Function to find the aspect ratio of the characters ----> feature 1(bounding box length/width)[A]
+2) Function to find the area covered by the bounding box of the character ------> feature 2(follows from the bounding box)[A]
+3) Function to find the Medial axis transform (function available in skiimage)[F]
+4) Function to find compactness(Refer to Steihl's slides)[S]
+5) Function to find the density/entropy of the binarized images[L]
+6) Function to find the moments of inertia[F]
+7) Function to perform principle component analysis[L] 
