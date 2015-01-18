@@ -1,0 +1,3 @@
+#Greyscaled Image
+img = Image.open('5back2.png').convert('LA')
+img.save('g5back2.png')
