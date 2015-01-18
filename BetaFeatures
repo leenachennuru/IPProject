@@ -1,0 +1,5 @@
+1) Differences in aspect ratio(clearly seen in the Beta Character)
+2) The length of the stroke in the left hand side is clearly much longer in the 2nd writer's handwriting compared to the right.
+3) Skeletonize the characters and calculate the compactness (using medial axis transform)
+4) After the feature extraction, use principle component analysis to eliminate features which do not add significant value to the analysis.
+
