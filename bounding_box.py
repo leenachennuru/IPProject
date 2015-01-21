@@ -34,7 +34,7 @@ skel, distance = medial_axis(img, return_distance=True)
 dist_on_skel = distance * skel
 
 def pca(image):
-    
+    mlab.pca(image)
     
 
 
