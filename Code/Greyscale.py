@@ -10,8 +10,7 @@ from scipy import misc as msc
 import os as os
 from PIL import Image
 
-srcdir = 'D:\Google Drive\Intelligent Adaptive Systems\Image Processing\chara'
-graysc(srcdir);
+srcdir = 'C:\Users\Genieass\Desktop\Acads\Char'
 
 """
 file - is a string containing the current dile name beinf used in the loop.
@@ -31,6 +30,8 @@ def graysc(srcdir):
             graysc(fullfile);
         elif os.path.isfile(fullfile) and not file.startswith('grey'):
             img1 = msc.imread(fullfile);
-            img  = 0.299*img1[:,:,0] + 0.587*image[:,:,1] + 0.114*image[:,:,2]
+            img  = 0.299*img1[:,:,0] + 0.587*img1[:,:,1] + 0.114*img1[:,:,2]
             tempname = os.path.basename(fullfile);
-            img.save('%s//grey_%s.png'%(srcdir,tempname));            
+            msc.imsave('%s//grey_%s.png'%(srcdir,tempname),img);            
+
+graysc(srcdir);
