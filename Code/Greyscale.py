@@ -10,7 +10,7 @@ from scipy import misc as msc
 import os as os
 from PIL import Image
 
-srcdir = 'C:\Users\Genieass\Desktop\Acads\Char'
+srcdir = 'C:\Users\Genieass\Desktop\Acads\Semester 1\Image Processing Lecture\Assignments\Project\IPProject\chara'
 
 """
 file - is a string containing the current dile name beinf used in the loop.

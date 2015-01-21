@@ -15,8 +15,8 @@ import matplotlib.mlab as ml
 img = msc.lena()
 
 def bounding_box(image):
-    min_x, min_y = np.min(image[0], axis=0)
-    max_x, max_y = np.max(image[0], axis=0)
+    min_x, min_y = np.min(image[:,0], axis=0)
+    max_x, max_y = np.max(image[:,0], axis=0)
     return np.array([(min_x, min_y), (max_x, min_y), (max_x, max_y), (min_x, max_y)])
     
 def aspect_ratio(image):
@@ -34,8 +34,9 @@ skel, distance = medial_axis(img, return_distance=True)
 dist_on_skel = distance * skel
 
 def pca(image):
-    mlab.pca(image)
+    return mlab.pca(image)
     
 
-
+    
+ar = area(img)
     
