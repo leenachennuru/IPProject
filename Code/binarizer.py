@@ -11,10 +11,7 @@ import matplotlib.pyplot as plt
 import matplotlib.pylab as lab
 from skimage.filter import threshold_adaptive
 
-def binarizer(image, block_size, offset):
+def binarizer(image, block_size):
     image_New = image.copy()
-    binarized_image = threshold_adaptive(image_New, block_size, offset)
-    return binarized_image
-    
-    
-    
+    binarized =  threshold_adaptive(image_New, 10)
+    return binarized
