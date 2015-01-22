@@ -27,16 +27,13 @@ def area(image):
     bbox = bounding_box(image)
     return np.abs(bbox[0,0] - bbox[0,1])*np.abs(bbox[1,0] - bbox[1,1])
 
-# Compute the medial axis (skeleton) and the distance transform
-skel, distance = medial_axis(img, return_distance=True)
-
-# Distance to the background for pixels of the skeleton
-dist_on_skel = distance * skel
+def med_axis(img):
+    # Compute the medial axis (skeleton) and the distance transform
+    skel, distance = medial_axis(img, return_distance=True)
+    # Distance to the background for pixels of the skeleton
+    dist_on_skel = distance * skel
+    return skel, distance, dist_on_skel
 
 def pca(image):
     return mlab.pca(image)
-    
-
-    
-ar = area(img)
     
